@@ -1,10 +1,3 @@
-import Hotjar from '@hotjar/browser';
-
-const siteId = 3918162;
-const hotjarVersion = 6;
-
-Hotjar.init(siteId, hotjarVersion);
-
 const swiper = new Swiper(".swiper", {
     loop: true,
     effect: "fade",
